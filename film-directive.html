@@ -1,0 +1,15 @@
+<div>
+    <%for(var index in this.results) {%>
+        <div class="row yelloColor">
+            <div class="col-sm-4">
+                <%this.results[index].title%>
+            </div>
+            <div class="col-sm-4">
+                <%this.results[index].director%>
+            </div>
+            <div class="col-sm-4">
+                <%this.results[index].release_date%>
+            </div>
+        </div>
+        <%}%>
+</div>
